@@ -42,7 +42,7 @@ struct AnimationButton: View {
 }
 
 struct ContentView: View {
-    let letters = Array("Text Animation")
+    let letters = Array("Text Drag Me")
     @State private var buttonAnimationAmount = 1.0
     @State private var rotateAnimationAmount = 1.0
     @State private var stepperAnimationAmount = 1.0
